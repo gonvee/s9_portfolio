@@ -1,0 +1,118 @@
+/*
+    页面宽度大于等于960px样式表
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* 头部样式 */
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: #2d3c49;
+}
+
+.logo {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.author {
+    width: 50%;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.author > h1 {
+    
+    font-size: 3.2em;
+    font-weight: 100;
+    margin: 12px 0 0 0;
+}
+
+.author p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* 分隔线样式 */
+hr {
+    border: 2px solid #7d97ae;
+}
+
+/* banner样式 */
+.banner {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* 作品集列表区样式 */
+.portfolio_list {
+    width: 100%;
+    color: #2d3c49;
+    margin-bottom: 25px;
+}
+
+.portfolio_list > h2 {
+    margin: 15px 8px 5px;
+    color: #7d97ad;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work {
+    text-align: center;
+    width: 300px;
+}
+
+.work:nth-child(2) {
+    width: 360px;
+}
+
+.work > img {
+    width: 300px;
+    height: 200px;
+}
+
+.work > h3 {
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+.work > a {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-decoration: none;
+    color: inherit;
+    word-wrap: break-word;
+}
+
+.work > a:link {
+    color: inherit;
+}
+
+.work > a:hover {
+    color: #02b3e4;
+}
